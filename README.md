@@ -29,3 +29,7 @@ The goal of this analysis is to take a look at Donald Trump's twitter account an
 <!-- DATA CLEANING -->
 ## Data Cleaning
 
+To perform any text analysis, it is essential that the text is transformed and normalized to produce actionable and insightful information.  Tweets are more difficult because they are highly prone to human error and can be littered with typos, additional characters/symbols, punctuation, slang, and links that can make it difficult to normalize the dataset. We can immediately remove the irrelevant variables from our dataset like Tweet_ID and Tweet_URL as they do not contribute to the analysis. Once we have removed these we can begin building our corpus. This corpus will allow us to remove additional unnecessary information such as any URL's, punctuation, special characters, and stopwords. After removing these we will finally be transforming all the remaining words to lowercase, removing extra spaces, and removing all numbers. The last, but very beneficial step, will be to remove the words trump and realdonaldtrump from the corpus as they are the President's last name and Twitter username and will appear in most or all tweets.
+
+<!-- EXPLORATORY ANALYSIS -->
+## Exploratory Analysis
